@@ -1,0 +1,26 @@
+{
+  "name": "ridebookingapp",
+  "version": "1.0.0",
+  "description": "- User, Driver, Cab management\r - Ride booking system\r - Payment integration\r - Ratings system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakeshSarkar1223/ride-booking-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RakeshSarkar1223/ride-booking-app/issues"
+  },
+  "homepage": "https://github.com/RakeshSarkar1223/ride-booking-app#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}

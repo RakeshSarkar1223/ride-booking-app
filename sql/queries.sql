@@ -37,3 +37,6 @@ WHERE id = 'ea7a5e70-11d3-4553-bd3c-5408146a2801';
 
 
 ALTER TABLE payments ADD COLUMN amount NUMERIC(10, 2) NOT NULL DEFAULT 0.00;
+
+
+ALTER TABLE drivers add column is_available BOOLEAN DEFAULT TRUE;
