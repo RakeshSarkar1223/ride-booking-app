@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "RideBookingLocal",
+            "database": "ride_booking_db",
+            "username": "postgres"
+        }
+    ]
+}
