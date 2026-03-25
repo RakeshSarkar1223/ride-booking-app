@@ -40,3 +40,15 @@ ALTER TABLE payments ADD COLUMN amount NUMERIC(10, 2) NOT NULL DEFAULT 0.00;
 
 
 ALTER TABLE drivers add column is_available BOOLEAN DEFAULT TRUE;
+
+
+ALTER TABLE users add column password VARCHAR(255) NOT NULL;
+
+
+ALTER TABLE drivers
+ADD COLUMN password TEXT;
+
+UPDATE drivers SET password = 'driver123';
+
+
+ALTER TABLE drivers ALTER COLUMN password SET NOT NULL;
